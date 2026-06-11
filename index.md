@@ -1,11 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
-# You can reach me via afterjourney1993@gmail.com
-# MY BLOG LIST
-
-{% for post in site.posts %}
-## [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-📅 {{ post.date | date: "%Y-%m-%d" }}
-{% endfor %}
+I am Taylor Chan, a robotics researcher. You can reach me at afterjourney1993@gmail.com.
