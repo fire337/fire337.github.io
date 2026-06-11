@@ -141,6 +141,10 @@ footer {
   color: var(--muted);
 }
 
+body.page-post {
+  max-width: 960px;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 16px;
