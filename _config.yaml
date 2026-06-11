@@ -7,6 +7,9 @@ url: "https://fire337.github.io"
 baseurl: ""
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  footnote_backlink: "&#8617;"
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
 
