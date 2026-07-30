@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A High Level VLM that can Decompose Task and monitor progress"
+title: "A High Level VLM that can Decompose Task and Monitor Progress"
 date: 2026-07-30 00:00:00
 ---
 
