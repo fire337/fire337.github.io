@@ -40,6 +40,8 @@ Embodied Reasoning VQA is designed to improve embodied reasoning abilities, cove
 | EgoIT-99K | 99K | Video or images | No | Yes | No | — |
 | Magma | 8.3M | Video or images | No | No | No | Focuses on Mark; no language annotations |
 | Robo2VLM-1 | 685K | images | No | No | No | Reasoning with trajectory or marker |
+| RoboInter-VQA | 928K | images | Yes | Yes | No | Planning data included |
+
 
 
 > "Format Conversion" means whether the original heterogeneous formats have been converted to the standard JSONL data format locally.
