@@ -44,7 +44,7 @@ Embodied Reasoning VQA is designed to improve embodied reasoning abilities, cove
 
 #### Subtask Decomposition & State Monitoring Related Data
 
-Business data refers to egocentric, UMI, and robot data that contains subtask annotations. This data requires secondary processing on top of the original source data to produce subtask decomposition and state monitoring training samples.
+Task specific data refers to egocentric, UMI, and robot data that contains subtask annotations. This data requires secondary processing on top of the original source data to produce subtask decomposition and state monitoring training samples.
 
 | Data Source | Scale | Visual Input | Sampling Strategy | Data Type | Processed | Training | Other Issues |
 |---|---|---|---|---|---|---|---|
@@ -151,7 +151,7 @@ These datasets have multiple annotations towards one scene, so try sampling to g
 
 ## Online Inference Loop
 Prompt VLM with task decomposition and subtask progress monitor asynchronously: task decomposition predicts next subtask only when the previous subtask is finished.   
-### Two situations should be treated specially:
+### Two situations should be treated specially
 At the beginning of the task, task decomposition predicts subtask directly because no previous subtask is performed.   
 Task finished should also be predicted when all subtasks are finished and the goal of overall task is satisfied.   
 
