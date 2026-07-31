@@ -20,7 +20,7 @@ HighLevel VLM is fundamentally a next-token-prediction paradigm for embodied sce
 >
 > Subtask Decomposition & State Monitoring Related Data
 
-### Inventory of Available Data
+### Data Categories
 
 #### General Visual VQA
 
@@ -42,7 +42,7 @@ Embodied Reasoning VQA is designed to improve embodied reasoning abilities, cove
 
 > "Format Conversion" means whether the original heterogeneous formats have been converted to the standard JSONL data format locally.
 
-#### Subtask Decomposition & State Monitoring Business Data
+#### Subtask Decomposition & State Monitoring Related Data
 
 Business data refers to egocentric, UMI, and robot data that contains subtask annotations. This data requires secondary processing on top of the original source data to produce subtask decomposition and state monitoring training samples.
 
