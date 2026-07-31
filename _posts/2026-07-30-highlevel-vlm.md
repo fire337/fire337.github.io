@@ -117,7 +117,7 @@ vqa_item = {
         },
         {
             "from": "gpt",
-            "value": "done or ongoing"
+            "value": "done or ongoing" or "0-20%, 20-40%, 40-60%, 60-80%, 80-100% as special token"
         }
     ]
 }
