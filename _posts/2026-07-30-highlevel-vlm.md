@@ -66,7 +66,7 @@ As shown below, within ±200 ms of each subtask boundary, we define a **Transiti
 
 N frames (currently 5) are randomly sampled from each phase and annotated with VQA.
 
-```
+```diagram
                                                        ░░ Transition Phase   ██ Execution Phase
 
 Model           Last action is finished, the        continue the       Roll is on the table. The
