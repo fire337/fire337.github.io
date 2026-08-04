@@ -144,6 +144,34 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.post-content table {
+  display: block;
+  width: 100%;
+  margin: 1.25rem 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #ddd6c6;
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-content th {
+  background: #f3efe4;
+  font-weight: bold;
+}
+
+.post-content tr:nth-child(even) {
+  background: #fbf7ed;
+}
+
 .citation {
   margin-top: 3rem;
   padding-top: 1.25rem;
