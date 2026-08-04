@@ -1,0 +1,17 @@
+{% assign citation_author = page.author | default: site.author.name | default: site.title %}
+{% assign citation_year = page.date | date: "%Y" %}
+{% assign canonical_url = page.url | absolute_url %}
+{% assign author_key = citation_author | split: " " | last | downcase %}
+{% assign title_key = page.slug | default: page.title | downcase | replace: "-", "" | replace: " ", "" %}
+{% assign citation_key = page.citation_key | default: author_key | append: citation_year | append: title_key %}
+
+<section class="citation" aria-labelledby="citation-title">
+  <h2 id="citation-title">Citation</h2>
+  <pre><code>@misc{ {{- citation_key -}},
+  author = { {{- citation_author -}} },
+  title = { {{- page.title -}} },
+  howpublished = {Technical Report},
+  year = { {{- citation_year -}} },
+  url = { {{- canonical_url -}} }
+}</code></pre>
+</section>
