@@ -126,6 +126,12 @@ a:hover {
   padding: 0;
 }
 
+.post-content code.language-diagram,
+.post-content .language-diagram pre code {
+  font-family: Consolas, "Courier New", Monaco, monospace;
+  line-height: 1.45;
+}
+
 .post-content img {
   max-width: 100%;
   height: auto;
