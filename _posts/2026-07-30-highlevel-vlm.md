@@ -161,4 +161,4 @@ Task finished should also be predicted when all subtasks are finished and the go
 
 ## Challenges
 
-Subtask decomposition and progress understanding rely on context. The key question is: how to efficiently and cleanly inject context / memory into the model without hacks. We can use agent as a memory component to produce necessary memory.
+Subtask decomposition and progress understanding rely on context. The key problem is: how to inject context / memory into the model efficiently without hacks. We can use agent as a memory component to produce necessary memory.
