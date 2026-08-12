@@ -127,6 +127,12 @@ vqa_item = {
 }
 ```
 
+### Data Visualizer
+<video controls playsinline preload="metadata" style="display: block; width: 100%; height: auto;">
+  <source src="{{ '/assets/videos/highlevel_visualizer.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Model Fine-tuning
 
 ### QWEN3
