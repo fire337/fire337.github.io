@@ -26,7 +26,7 @@ HighLevel VLM is fundamentally a next-token-prediction paradigm for embodied sce
 
 General Visual VQA data refers to the generic data required for VLM fine-tuning, such as caption, grounding, and OCR. This category of data helps maintain the pre-trained checkpoint's visual understanding capability and prevents catastrophic forgetting during subsequent VLM fine-tuning.
 
-This data is available in sufficient volume; at training time we only need to sample 10%–20% of the total training set. Currently we are using Cambrian737k.
+This data is available in sufficient volume; at training time we only need to sample 10%–20% of the total training set. Currently we are using Cambrian737k or Finevision.
 
 #### Embodied Reasoning VQA
 
