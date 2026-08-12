@@ -41,6 +41,9 @@ Embodied Reasoning VQA is designed to improve embodied reasoning abilities, cove
 | Magma | 8.3M | Video or images | No | No | No | Focuses on Mark; no language annotations |
 | Robo2VLM-1 | 685K | images | No | No | No | Reasoning with trajectory or marker |
 | RoboInter-VQA | 928K | images | Yes | Yes | No | Planning data included |
+| Robopoint | 1432K | images | Yes | Yes | No | Specially for grounding |
+| RefSpatial | 20M | images | Yes | Yes | No |  |
+| RoboAfford++ | 1.9M | images | Yes | Yes | No | Specially for affordance |
 
 
 
