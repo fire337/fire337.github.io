@@ -117,9 +117,11 @@ vqa_item = {
         {
             "from": "human",
             "value": (
-                "<image>\n<image>\n"
-                "The two images represent the start of {subtask} observation and current observation "
-                "from ego view respectively. What is the progress of {subtask} now?"
+                "<image>\n<image>\n<image>\n<image>\n"
+                "The first image represent the start observation and "
+                 "the following three images represent the last three seconds "
+                 f"of task: {subtask}. What is the progress of "
+                 f"{subtask} now?"
             )
         },
         {
