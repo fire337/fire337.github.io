@@ -22,6 +22,9 @@ Long manipulation tasks rely on context and observations are expanded through vi
 ### Long Short Memories
 Atkinson & Shiffrin[^7] proposed long-short memory in 1968 from cognitive psychology and lots of work[^8] used that idea in video understanding. Long-term memory can be compressed as memory token or summarized as textual memory.
 
+### VAE-like Memory
+Compression methods, such as VAE and visual tokenization, are widely used in video generation models and world action models.
+
 ### Streaming Memory
 Streaming memory is designed to continuously process incoming visual information while keeping constant computation[^9]. Same idea can be found in other aspect such as LSTM[^10] and Mamba[^11]. Streaming memory is more compatible with online inference.
 
